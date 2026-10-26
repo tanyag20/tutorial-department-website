@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subject Tutorials Data Structures</title>
+</head>
+<body bgcolor="#f0f2f5">
+    <table width="100%" bgcolor="#2c3e50" cellpadding="15">
+        <tr>
+            <td><font color="white" size="4"><b>Academic Subject Tutorial Portal</b></font></td>
+            <td align="right">
+                <a href="indexi.html"><font color="white">Main Institution Home</font></a> &nbsp;&nbsp;
+                <a href="department.html"><font color="white">Department Home</font></a>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Layout Table for Sidebar and Content -->
+    <table width="90%" align="center" cellpadding="15" style="margin-top: 20px;">
+        <tr valign="top">
+            <!-- Sidebar -->
+            <td width="25%" bgcolor="#e2e8f0">
+                <h3>Tutorial Modules</h3>
+                <ul>
+                    <li><a href="#">Introduction to DSA</a></li>
+                    <li><a href="#">Arrays & Strings</a></li>
+                    <li><a href="#">Linked Lists</a></li>
+                    <li><a href="#">Stacks & Queues</a></li>
+                    <li><a href="#">Trees & Graphs</a></li>
+                </ul>
+            </td>
+
+            <!-- Main Content -->
+            <td width="75%" bgcolor="white">
+                <h1>Subject: Data Structures & Algorithms</h1>
+                <p>Welcome to the dedicated academic tutorial portal. Below is a quick illustration sample for a fundamental concept code block implementation.</p>
+                
+                <h3>Example Code Snippet (C++)</h3>
+                <table width="100%" bgcolor="#1e1e1e" cellpadding="10">
+                    <tr>
+                        <td>
+                            <font color="#d4d4d4" face="Courier New">
+                                #include &lt;iostream&gt;<br>
+                                using namespace std;<br><br>
+                                int binarySearch(int arr[], int l, int r, int x) {<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;while (l &lt;= r) {<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int m = l + (r - l) / 2;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (arr[m] == x) return m;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (arr[m] &lt; x) l = m + 1;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else r = m - 1;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;}<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;return -1;<br>
+                                }
+                            </font>
+                        </td>
+                    </tr>
+                </table>
+
+                <p>Use the module list on the left menu to access more lecture notes and assignments.</p>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
+    
+</body>
+</html>
